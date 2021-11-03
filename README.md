@@ -23,5 +23,7 @@ import CardAnimated from './components/card-animated';
     <CardAnimated title="something title" content={textContent} textButton="LEARN MORE" buttonAction={action}/>
 </code>
 
+This code was built following this video, but applied on react js
+https://www.youtube.com/watch?v=5DEq5cWNYt8
 
 For contribute, contact me to get the colaborator access!!
