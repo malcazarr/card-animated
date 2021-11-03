@@ -1,6 +1,6 @@
 ## Card Animated
 
-This is a simple project to build a card animated
+This is a simple project to build a card animated on React JS.
 
 ## Attr
 
