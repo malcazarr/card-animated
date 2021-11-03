@@ -1,0 +1,64 @@
+.card{
+    background-image:url('../img/desktop.jpeg');
+    background-size: 500px 420px;
+    background-repeat: no-repeat;
+    height: 30%;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px gray solid;
+    margin-left: 10%;
+    transition: 500ms;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 500ms
+}
+
+.card-content {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50%;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.2);
+    height: 56%;
+    position: relative;
+    transition: 500ms;
+    border-radius: 0px 0px 5px 5px;
+}
+.card:hover .card-content{
+    transform: translateY(100%);
+    transition: 500ms
+}
+
+
+.card-title {
+    font-weight: bolder;
+    font-size: x-large;
+    padding-bottom: 5%;
+}
+.card-title::after{
+    content: "";
+    left: 0;
+    height: 4px;
+    width: 55%;
+    top: 28px;
+    background: lawngreen;
+    position: absolute;   
+    transition: 500ms;
+}
+.card:hover .card-title::after{
+    width: 10px;
+    transition: 500ms;
+}
+.card-button{
+    margin-top: 10%;
+    background-color: lawngreen;
+    font-weight: small;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
+    cursor: pointer;
+}
